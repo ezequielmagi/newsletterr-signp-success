@@ -20,32 +20,32 @@
    
 
  }
- .info-cointainer{
+ .info-container{
     height: 100%;
     padding: 2rem;
     width: 100%;
  }
 
-.info-cointainer__info h1{
+.info-container__info h1{
    font-size: 2.5rem;
    font-weight: 700;
    margin-bottom: 1rem;
 }
 
-.info-cointainer__info p{
+.info-container__info p{
    font-size: 1rem;
    font-weight: 400;
    margin: 1rem 0;
 }
 
-.info-cointainer__info ul li{
+.info-container__info ul li{
  list-style: none;
  line-height: 1.5rem;
  display: flex;
 
 }
 
-.info-cointainer__info ul li::before{
+.info-container__info ul li::before{
    content: url(./imag/icon-list.svg);
    margin-right: 1rem;
    
@@ -53,7 +53,7 @@
 
   /* estilos del formulario */
 
-  .info-cointainer__sigup-form{
+  .info-container__sigup-form{
   /* background-color: red; */
    display: flex;
    flex-direction: column;
@@ -61,12 +61,12 @@
    width: 100%;
   }
 
-  .info-cointainer__sigup-form label{
+  .info-container__sigup-form label{
    margin-bottom: 0.4rem;
    font-size: 0.8rem;
   }
 
-  .info-cointainer__sigup-form input:nth-of-type(1){
+  .info-container__sigup-form input:nth-of-type(1){
    height: 55px;
    width: 295px;
    border-radius: 8px;
@@ -75,7 +75,7 @@
    margin-bottom: 1.5rem;
   }
 
-  .info-cointainer__sigup-form input:nth-of-type(2){
+  .info-container__sigup-form input:nth-of-type(2){
    height: 55px;
    width: 295px;
    border-radius: 8px;
@@ -95,13 +95,13 @@
    
    .card-container{
       border-radius: 34px;
-    display: flex;
-    flex-direction: row-reverse;
-    max-width: 928px;
-    max-height: 641px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: floralwhite;
+      display: flex;
+      flex-direction: row-reverse;
+      max-width: 928px;
+      max-height: 641px;
+      margin: 0 auto;
+      padding: 1rem;
+      background-color: floralwhite;
    }
 
    main article figure{
@@ -112,7 +112,7 @@
       max-height: 593px;
    }
 
-   .info-cointainer{
+   .info-container{
       margin: 0 auto;
       width: 456;
       height: 593px; ;
